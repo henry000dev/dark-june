@@ -2,8 +2,8 @@
 	"name": "Dark June",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
+		"editor.background": "#202020",
+		"editor.foreground": "#c2c2c2",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
@@ -15,7 +15,6 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#546E7A"
 			}
 		},
@@ -209,7 +208,6 @@
 				"variable.language"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#FF5370"
 			}
 		},
@@ -219,7 +217,6 @@
 				"entity.name.method.js"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#82AAFF"
 			}
 		},
@@ -249,7 +246,6 @@
 				"text.html.basic entity.other.attribute-name"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#FFCB6B"
 			}
 		},
@@ -334,7 +330,6 @@
 				"tag.decorator.js punctuation.definition.tag.js"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#82AAFF"
 			}
 		},
@@ -344,7 +339,6 @@
 				"source.js constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#FF5370"
 			}
 		},
@@ -529,7 +523,6 @@
 				"markup.quote"
 			],
 			"settings": {
-				"fontStyle": "italic",
 			}
 		},
 		{
