@@ -13,7 +13,6 @@ You can author your README using Visual Studio Code.  Here are some useful edito
 * [Scope inspector](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide#scope-inspector)
 
 ### Theme info
-* Main background: #202020
-* Main foreground: #c2c2c2
+* Examples taken from the Night Owl theme.
 
 **Enjoy!**
