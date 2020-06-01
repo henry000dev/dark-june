@@ -2,10 +2,21 @@
 	"name": "Dark June",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#202020",
-		"editor.foreground": "#c2c2c2",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"editor.background": "#202020", // primary dark colour.
+		"editor.foreground": "#c2c2c2", // primary light colour.
+
+		// Side bar is where the files, extensions etc are.
+		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBar.background": "#202020",
+		"sideBar.border": "#303030",
+		
+		// Activity bar is the left-most (or right-most) bar.
+		"activityBarBadge.background": "#d52090",
+		"activityBar.foreground": "#d0d0d0",
+		"activityBar.activeBorder": "#d0d0d0",
+		"activityBar.inactiveForeground": "#808080",
+		"activityBar.background": "#202020",
+		"activityBar.border": "#303030"
 	},
 	"tokenColors": [
 		{
