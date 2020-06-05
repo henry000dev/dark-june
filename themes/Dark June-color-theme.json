@@ -3,7 +3,7 @@
 	"type": "dark",
 	"colors": {
 		"editor.background": "#202020", // primary dark colour.
-		"editor.foreground": "#C2C2C2", // primary light colour.
+		"editor.foreground": "#C8C8C8", // primary light colour.
 
 		// Side bar is where the files, extensions etc are.
 		"sideBarTitle.foreground": "#BBBBBB",
@@ -18,6 +18,7 @@
 		"activityBar.border": "#303030"
 	},
 	// #D52090 - badge colour, delete, warning
+	// #B83030 - error
 	// #C8C8C8 - lighter white colour
 	// #828282 - darker white colour
 	// #CC9292 - orange
@@ -25,11 +26,12 @@
 	// #AF92CC - purple
 	// #7FAB7B - green
 	// #E4D4A5 - yellow
+	// #6E87B3 - blue
 	"tokenColors": [
 		{
 			"scope": "comment, punctuation.definition.comment",
 			"settings": {
-				"foreground": "#65737E"
+				"foreground": "#828282" // from theme
 			}
 		},
 		{
@@ -47,19 +49,19 @@
 		{
 			"scope": "keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
 			"settings": {
-				"foreground": "#5FB3B3"
+				"foreground": "#B981B4" // from theme
 			}
 		},
 		{
 			"scope": "entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter",
 			"settings": {
-				"foreground": "#EB606B"
+				"foreground": "#7FAB7B" // from theme
 			}
 		},
 		{
 			"scope": "entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level",
 			"settings": {
-				"foreground": "#6699CC"
+				"foreground": "#AF92CC" // from theme
 			}
 		},
 		{
@@ -71,33 +73,31 @@
 		{
 			"scope": "constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit",
 			"settings": {
-				"foreground": "#F99157"
+				"foreground": "#B981B4" // from theme
 			}
 		},
 		{
 			"scope": "string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
 			"settings": {
-				"foreground": "#99C794",
-				"fontStyle": "normal"
+				"foreground": "#CC9292", // from theme
 			}
 		},
 		{
 			"scope": "entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter",
 			"settings": {
-				"foreground": "#FAC863"
+				"foreground": "#CC9292"
 			}
 		},
 		{
 			"scope": "entity.name.module.js, variable.import.parameter.js, variable.other.class.js",
 			"settings": {
-				"foreground": "#EC5F67"
+				"foreground": "#7FAB7B" // from theme
 			}
 		},
 		{
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#EC5F67",
-				"fontStyle": "italic"
+				"foreground": "#7FAB7B", // from theme
 			}
 		},
 		{
@@ -121,13 +121,13 @@
 		{
 			"scope": "markup.inserted",
 			"settings": {
-				"foreground": "#99C794"
+				"foreground": "#CC9292" // from theme
 			}
 		},
 		{
 			"scope": "markup.deleted",
 			"settings": {
-				"foreground": "#EC5F67"
+				"foreground": "#7FAB7B" // from theme
 			}
 		},
 		{
@@ -139,13 +139,13 @@
 		{
 			"scope": "string.regexp",
 			"settings": {
-				"foreground": "#5FB3B3"
+				"foreground": "#B981B4" // from theme
 			}
 		},
 		{
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#5FB3B3"
+				"foreground": "#B981B4" // from theme
 			}
 		},
 		{
@@ -163,45 +163,43 @@
 		{
 			"scope": "entity.name.filename.find-in-files",
 			"settings": {
-				"foreground": "#99C794"
+				"foreground": "#CC9292" // from theme
 			}
 		},
 		{
 			"scope": "tag.decorator.js entity.name.tag.js, tag.decorator.js punctuation.definition.tag.js",
 			"settings": {
-				"foreground": "#6699CC",
-				"fontStyle": "italic"
+				"foreground": "#AF92CC" // from theme
 			}
 		},
 		{
 			"scope": "source.js constant.other.object.key.js string.unquoted.label.js",
 			"settings": {
-				"foreground": "#EC5F67",
-				"fontStyle": "italic"
+				"foreground": "#7FAB7B" // from theme
 			}
 		},
 		{
 			"scope": "token.info-token",
 			"settings": {
-				"foreground": "#6796E6"
+				"foreground": "#6E87B3" // from theme
 			}
 		},
 		{
 			"scope": "token.warn-token",
 			"settings": {
-				"foreground": "#CD9731"
+				"foreground": "#D52090" // from theme
 			}
 		},
 		{
 			"scope": "token.error-token",
 			"settings": {
-				"foreground": "#F44747"
+				"foreground": "#B83030" // from theme
 			}
 		},
 		{
 			"scope": "token.debug-token",
 			"settings": {
-				"foreground": "#B267E6"
+				"foreground": "#6E87B3" // from theme
 			}
 		}
 	]
