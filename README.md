@@ -1,18 +1,20 @@
-# README
-## This is the README for your extension "dark-june"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Dark June
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+A minimal dark theme designed with soft colors, so hopefully you can focus on the code rather than getting distracted with too many bright colors.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-* [Complete theme API](https://code.visualstudio.com/api/references/theme-color)
-* [Scope inspector](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide#scope-inspector)
+It is inspired by the lovely [Dark Feminine Italics theme](https://marketplace.visualstudio.com/items?itemName=Charlotte.dark-feminine-italic).
 
-### Theme info
-* Examples taken from the Night Owl theme.
+## Screenshots
 
-**Enjoy!**
+### Html and CSS
+![demo](./images/html-css.png)
+
+### React
+![demo](./images/react.png)
+
+## Installation
+
+1. Open Visual Studio Code.
+2. Open the **Extensions** sidebar panel and search for `Dark June`.
+3. Click on the cog wheel and **Install** to install it.
+
