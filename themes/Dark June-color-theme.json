@@ -20,7 +20,7 @@
 	// #D52090 - badge colour, delete, warning
 	// #B83030 - error
 	// #C8C8C8 - lighter white colour
-	// #828282 - darker white colour
+	// #777777 - darker white colour
 	// #CC9292 - orange
 	// #B981B4 - pink
 	// #AF92CC - purple
@@ -31,7 +31,7 @@
 		{
 			"scope": "comment, punctuation.definition.comment",
 			"settings": {
-				"foreground": "#828282" // from theme
+				"foreground": "#777777" // from theme
 			}
 		},
 		{
@@ -49,13 +49,13 @@
 		{
 			"scope": "keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
 			"settings": {
-				"foreground": "#B981B4" // from theme
+				"foreground": "#AF92CC" // from theme
 			}
 		},
 		{
 			"scope": "entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter",
 			"settings": {
-				"foreground": "#7FAB7B" // from theme
+				"foreground": "#AF92CC" // from theme
 			}
 		},
 		{
