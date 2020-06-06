@@ -2,6 +2,7 @@
 	"name": "Dark June",
 	"type": "dark",
 	"colors": {
+		// The most important bit!
 		"editor.background": "#202020", // primary dark colour.
 		"editor.foreground": "#C8C8C8", // primary light colour.
 
@@ -15,18 +16,21 @@
 		"activityBar.foreground": "#D0D0D0",
 		"activityBar.activeBorder": "#D0D0D0",
 		"activityBar.background": "#202020",
-		"activityBar.border": "#303030"
+		"activityBar.border": "#303030",
+
+		// Status bar.
+		"statusBar.background": "#A50060",
 	},
 	// #D52090 - badge colour, delete, warning
 	// #B83030 - error
 	// #C8C8C8 - lighter white colour
 	// #777777 - darker white colour
-	// #CC9292 - orange
-	// #B981B4 - pink
-	// #AF92CC - purple
-	// #7FAB7B - green
-	// #E4D4A5 - yellow
-	// #6E87B3 - blue
+	// #CC9292 - 1
+	// #B981B4 - 2
+	// #AF92CC - 3
+	// #7FAB7B - 4
+	// #E4D4A5 - 5
+	// #6E87B3 - 6
 	"tokenColors": [
 		{
 			"scope": "comment, punctuation.definition.comment",
@@ -47,9 +51,15 @@
 			}
 		},
 		{
-			"scope": "keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
+			"scope": "punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html",
 			"settings": {
 				"foreground": "#AF92CC"
+			}
+		},
+		{
+			"scope": "keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
+			"settings": {
+				"foreground": "#CC9292"
 			}
 		},
 		{
