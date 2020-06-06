@@ -10,6 +10,13 @@
 		"sideBarTitle.foreground": "#BBBBBB",
 		"sideBar.background": "#202020",
 		"sideBar.border": "#303030",
+		"sideBar.foreground": "#C8C8C8",
+
+		// Tabs in the editor.
+		"tab.activeForeground": "#C8C8C8",
+
+		// Menu.
+		"menu.foreground": "#C8C8C8",
 		
 		// Activity bar is the left-most (or right-most) bar.
 		"activityBarBadge.background": "#D52090",
@@ -19,7 +26,12 @@
 		"activityBar.border": "#303030",
 
 		// Status bar.
-		"statusBar.background": "#A50060",
+		"statusBar.background": "#3C3C3C",
+		"statusBar.foreground": "#C8C8C8",
+		"statusBar.debuggingBackground": "#D52090",
+
+		// Title bar.
+		"titleBar.activeBackground": "#3C3C3C"
 	},
 	// #D52090 - badge colour, delete, warning
 	// #B83030 - error
