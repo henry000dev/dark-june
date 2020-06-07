@@ -1,6 +1,6 @@
 # Dark June
 
-A minimal dark theme designed with soft, feminine colors, so hopefully you can focus on the code rather than getting distracted with too many bright colors.
+A dark and minimal [Visual Studio Code](https://code.visualstudio.com) theme. It is designed with soft, feminine colours, so hopefully you can focus on the code rather than getting distracted by vibrant colors.
 
 It is inspired by the lovely [Dark Feminine Italics theme](https://marketplace.visualstudio.com/items?itemName=Charlotte.dark-feminine-italic).
 
@@ -14,18 +14,27 @@ It is inspired by the lovely [Dark Feminine Italics theme](https://marketplace.v
 
 ## Languages Best Supported
 - CSS
+- C#
 - Flutter/Dart
 - HTML
 - Java
 - JavaScript
-- JavaScript: Vue
-- JavaScript: React
 - JSON
 - Markdown
+- PHP
+- React (JavaScript)
+- SCSS
 - SQL
+- TypeScript
+- Vue (JavaScript)
 
 ## Installation
 
+1. Ensure Visual Studio Code is installed.
 1. Open Visual Studio Code.
 2. Open the **Extensions** sidebar panel and search for `Dark June`.
 3. Click on the cog wheel and **Install** to install it.
+
+## Customisation
+
+Feel free to customise this theme to your liking. Follow the [official instructions](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme) on how to customise Visual Studio Code themes.

@@ -14,11 +14,20 @@
         "type": "git",
         "url": "https://github.com/henry000dev/dark-june"
     },
-    "author": "henry000dev",
+    "license": "MIT",
+    "author": {
+        "name": "henry000dev"
+    },
     "publisher": "henry000dev",
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "dark",
+        "soft",
+        "minimal",
+        "feminine"
+      ],
     "icon": "images/dark-june-logo.png",
     "contributes": {
         "themes": [
