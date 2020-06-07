@@ -45,7 +45,8 @@
 
 	// Types: blue
 	// Annotations: yellow
-	// Function/Method params: pink
+	// Function/Method params declarations: pink
+	// Params passed to functions/methods: lighter white
 	"tokenColors": [
 		{
 			"scope": "comment, punctuation.definition.comment",
@@ -240,6 +241,20 @@
 			}
 		},
 
+		// CSS/SCSS Specifics.
+		{
+			"scope": "punctuation.definition.keyword.scss",
+			"settings": {
+				"foreground": "#AF92CC"
+			}
+		},
+		{
+			"scope": "meta.property-value.css",
+			"settings": {
+				"foreground": "#AF92CC"
+			}
+		},
+
 		// SQL specifics.
 		{
 			"scope": "source.sql, support.function.security.sql",
@@ -369,9 +384,35 @@
 			}
 		},
 		{
-			"scope": "variable.parameter.function.language.python",
+			"scope": "meta.function-call.arguments.python",
+			"settings": {
+				"foreground": "#B8B8B8"
+			}
+		},
+
+		// TypeScript specifics.
+		{
+			"scope": "variable.parameter.ts, meta.object-literal.key.ts",
 			"settings": {
 				"foreground": "#CC9292"
+			}
+		},
+		{
+			"scope": "entity.name.type.ts, support.type.primitive.ts",
+			"settings": {
+				"foreground": "#88A2D3"
+			}
+		},
+		{
+			"scope": "punctuation.decorator.ts",
+			"settings": {
+				"foreground": "#AF92CC"
+			}
+		},
+		{
+			"scope": "variable.object.property.ts",
+			"settings": {
+				"foreground": "#B8B8B8"
 			}
 		}
 	]
