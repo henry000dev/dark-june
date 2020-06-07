@@ -2,7 +2,7 @@
 	"name": "Dark June",
 	"type": "dark",
 	"colors": {
-		// The most important bit!
+		// The editor background colour is the primary dark colour.
 		"editor.background": "#202020", // primary dark colour.
 		"editor.foreground": "#B8B8B8", // primary light colour.
 
@@ -33,20 +33,32 @@
 		// Title bar.
 		"titleBar.activeBackground": "#3C3C3C"
 	},
+
+	// ------------------------------------------------------------
+	// The (smallish) colour palette for tokens.
+	//
 	// #D52090 - badge colour, delete, warning
 	// #B83030 - error
 	// #B8B8B8 - lighter white colour
 	// #777777 - darker white colour
-	// #AF92CC - indigo
+	// #AF92CC - purple
 	// #CC9292 - pink
 	// #97AF96 - green
 	// #C9B888 - yellow
 	// #88A2D3 - blue
+	// ------------------------------------------------------------
 
+	// ------------------------------------------------------------
+	// Some colour conventions.
+	//
+	// The purple and pink colours are the primary ones to use.
 	// Types: blue
 	// Annotations: yellow
+	// Variables: ligher white
+	// Function/Method: purple
 	// Function/Method params declarations: pink
 	// Params passed to functions/methods: lighter white
+	// ------------------------------------------------------------
 	"tokenColors": [
 		{
 			"scope": "comment, punctuation.definition.comment",
