@@ -34,21 +34,21 @@
 		"titleBar.activeBackground": "#3C3C3C"
 	},
 
-	// ------------------------------------------------------------
+	// ------------------------------------------------------------------------
 	// The (smallish) colour palette for tokens.
 	//
-	// #D52090 - badge colour, delete, warning
-	// #B83030 - error
-	// #B8B8B8 - lighter white colour
-	// #777777 - darker white colour
-	// #AF92CC - purple
-	// #CC9292 - pink
-	// #97AF96 - green
-	// #C9B888 - yellow
-	// #88A2D3 - blue
-	// ------------------------------------------------------------
+	// #D52090 - General theme colour, delete, warning. Colour name: cerise.
+	// #B83030 - Error. Colour name: well read.
+	// #B8B8B8 - Lighter white colour
+	// #777777 - Darker white colour. Colour name: boulder
+	// #AF92CC - Purple. Colour name: east side.
+	// #CC9292 - Pink. Colour name: oriental pink.
+	// #97AF96 - Green. Colour name: envy.
+	// #C9B888 - Yellow. Colour name: sorrell brown.
+	// #88A2D3 - Blue. Colour name: polo blue.
+	// ------------------------------------------------------------------------
 
-	// ------------------------------------------------------------
+	// ------------------------------------------------------------------------
 	// Some colour conventions.
 	//
 	// The purple and pink colours are the primary ones to use.
@@ -58,7 +58,7 @@
 	// Function/Method: purple
 	// Function/Method params declarations: pink
 	// Params passed to functions/methods: lighter white
-	// ------------------------------------------------------------
+	// ------------------------------------------------------------------------
 	"tokenColors": [
 		{
 			"scope": "comment, punctuation.definition.comment",
