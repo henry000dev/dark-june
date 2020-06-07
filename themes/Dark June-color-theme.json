@@ -40,7 +40,7 @@
 	// #AF92CC - indigo
 	// #CC9292 - pink
 	// #97AF96 - green
-	// #BEB190 - yellow
+	// #C9B888 - yellow
 	// #6E87B3 - blue
 	"tokenColors": [
 		{
@@ -264,7 +264,7 @@
 		{
 			"scope": "string.template.js, string.template.js variable.other.readwrite.js, string.template.js punctuation.definition.template-expression.begin.js, string.template.js punctuation.definition.template-expression.end.js, punctuation.definition.string.template.begin.js, punctuation.definition.string.template.end.js",
 			"settings": {
-				"foreground": "#BEB190",
+				"foreground": "#C9B888",
 			}
 		},
 
@@ -319,7 +319,7 @@
 		{
 			"scope": "storage.type.annotation.java, storage.modifier.import.java, punctuation.definition.annotation.java",
 			"settings": {
-					"foreground": "#BEB189"
+					"foreground": "#C9B888"
 			}
 		},
 		{
@@ -335,7 +335,14 @@
 			"settings": {
 				"foreground": "#97AF96"
 			}
-		}
+		},
 		
+		// Flutter/Dart specifics.
+		{
+			"scope": "storage.type.annotation.dart",
+			"settings": {
+				"foreground": "#C9B888"
+			}
+		}
 	]
 }
