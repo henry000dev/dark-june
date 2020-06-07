@@ -414,6 +414,40 @@
 			"settings": {
 				"foreground": "#B8B8B8"
 			}
+		},
+
+		// C# specifics.
+		{
+			"scope": "keyword.type.cs",
+			"settings": {
+				"foreground": "#88A2D3"
+			}
+		},
+		{
+			"scope": "punctuation.separator.hash.cs, punctuation.definition.tag.cs",
+			"settings": {
+				"foreground": "#AF92CC"
+			}
+		},
+
+		// PHP specifics.
+		{
+			"scope": "variable.other.global.safer.php, punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php, storage.type.class.php, storage.modifier.extends.php",
+			"settings": {
+				"foreground": "#AF92CC"
+			}
+		},
+		{
+			"scope": "punctuation.definition.variable.php",
+			"settings": {
+				"foreground": "#B8B8B8"
+			}
+		},
+		{
+			"scope": "storage.type.php",
+			"settings": {
+				"foreground": "#88A2D3"
+			}
 		}
 	]
 }
