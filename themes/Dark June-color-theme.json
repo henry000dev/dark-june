@@ -41,7 +41,11 @@
 	// #CC9292 - pink
 	// #97AF96 - green
 	// #C9B888 - yellow
-	// #6E87B3 - blue
+	// #88A2D3 - blue
+
+	// Types: blue
+	// Annotations: yellow
+	// Function/Method params: pink
 	"tokenColors": [
 		{
 			"scope": "comment, punctuation.definition.comment",
@@ -130,7 +134,7 @@
 		{
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#6E87B3",
+				"foreground": "#88A2D3",
 			}
 		},
 		{
@@ -166,7 +170,7 @@
 		{
 			"scope": "markup.changed",
 			"settings": {
-				"foreground": "#6E87B3"
+				"foreground": "#88A2D3"
 			}
 		},
 		{
@@ -190,7 +194,7 @@
 		{
 			"scope": "constant.numeric.line-number.find-in-files - match",
 			"settings": {
-				"foreground": "#6E87B3"
+				"foreground": "#88A2D3"
 			}
 		},
 		{
@@ -214,7 +218,7 @@
 		{
 			"scope": "token.info-token",
 			"settings": {
-				"foreground": "#6E87B3"
+				"foreground": "#88A2D3"
 			}
 		},
 		{
@@ -232,7 +236,7 @@
 		{
 			"scope": "token.debug-token",
 			"settings": {
-				"foreground": "#6E87B3"
+				"foreground": "#88A2D3"
 			}
 		},
 
@@ -319,13 +323,25 @@
 		{
 			"scope": "storage.type.annotation.java, storage.modifier.import.java, punctuation.definition.annotation.java",
 			"settings": {
-					"foreground": "#C9B888"
+				"foreground": "#C9B888"
 			}
 		},
 		{
 			"scope": "storage.modifier.java",
 			"settings": {
 				"foreground": "#AF92CC"
+			}
+		},
+		{
+			"scope": "variable.parameter.java",
+			"settings": {
+				"foreground": "#CC9292"
+			}
+		},
+		{
+			"scope": "storage.type.java",
+			"settings": {
+				"foreground": "#88A2D3"
 			}
 		},
 
@@ -342,6 +358,20 @@
 			"scope": "storage.type.annotation.dart",
 			"settings": {
 				"foreground": "#C9B888"
+			}
+		},
+
+		// Python specifics.
+		{
+			"scope": "string.quoted.docstring.multi.python",
+			"settings": {
+				"foreground": "#97AF96"
+			}
+		},
+		{
+			"scope": "variable.parameter.function.language.python",
+			"settings": {
+				"foreground": "#CC9292"
 			}
 		}
 	]

@@ -13,14 +13,15 @@ It is inspired by the lovely [Dark Feminine Italics theme](https://marketplace.v
 ![demo](./images/react.png)
 
 ## Languages Best Supported
+- CSS
+- Flutter/Dart
+- HTML
+- Java
 - JavaScript
 - JavaScript: Vue
 - JavaScript: React
-- HTML
-- CSS
 - JSON
 - Markdown
-- Java
 - SQL
 
 ## Installation
