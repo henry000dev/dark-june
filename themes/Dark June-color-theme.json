@@ -37,12 +37,11 @@
 	// #B83030 - error
 	// #B8B8B8 - lighter white colour
 	// #777777 - darker white colour
-	// #CC9292 - 1 -- pink
-	// #B981B4 - 2 -- purple (not used currently)
-	// #AF92CC - 3 -- indigo
-	// #97AF96 - 4 -- green
-	// #E4D4A5 - 5 -- yellow
-	// #6E87B3 - 6 -- blue
+	// #AF92CC - indigo
+	// #CC9292 - pink
+	// #97AF96 - green
+	// #BEB190 - yellow
+	// #6E87B3 - blue
 	"tokenColors": [
 		{
 			"scope": "comment, punctuation.definition.comment",
@@ -60,6 +59,12 @@
 			"scope": "keyword, storage.type, storage.modifier",
 			"settings": {
 				"foreground": "#AF92CC"
+			}
+		},
+		{
+			"scope": "storage.type, storage.modifier",
+			"settings": {
+				"foreground": "#CC9292"
 			}
 		},
 		{
@@ -259,7 +264,7 @@
 		{
 			"scope": "string.template.js, string.template.js variable.other.readwrite.js, string.template.js punctuation.definition.template-expression.begin.js, string.template.js punctuation.definition.template-expression.end.js, punctuation.definition.string.template.begin.js, punctuation.definition.string.template.end.js",
 			"settings": {
-				"foreground": "#97AF96",
+				"foreground": "#BEB190",
 			}
 		},
 
@@ -309,5 +314,28 @@
 				"foreground": "#AF92CC",
 			}
 		},
+
+		// Java specifics.
+		{
+			"scope": "storage.type.annotation.java, storage.modifier.import.java, punctuation.definition.annotation.java",
+			"settings": {
+					"foreground": "#BEB189"
+			}
+		},
+		{
+			"scope": "storage.modifier.java",
+			"settings": {
+				"foreground": "#AF92CC"
+			}
+		},
+
+		// Markdown specifics.
+		{
+			"scope": "meta.image.inline.markdown, meta.link.inline.markdown",
+			"settings": {
+				"foreground": "#97AF96"
+			}
+		}
+		
 	]
 }

@@ -12,10 +12,15 @@ It is inspired by the lovely [Dark Feminine Italics theme](https://marketplace.v
 ### React
 ![demo](./images/react.png)
 
-## Languages Tested
+## Languages Best Supported
 - JavaScript
-- CSS and SCSS
+- JavaScript: Vue
+- JavaScript: React
 - HTML
+- CSS
+- JSON
+- Markdown
+- Java
 - SQL
 
 ## Installation

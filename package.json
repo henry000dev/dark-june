@@ -2,7 +2,7 @@
     "name": "dark-june",
     "displayName": "Dark June",
     "description": "A soft dark theme that won't distract your focus",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.45.0"
     },
@@ -19,7 +19,7 @@
     "categories": [
         "Themes"
     ],
-    "icon": "./images/dark-june-logo.png",
+    "icon": "images/dark-june-logo.png",
     "contributes": {
         "themes": [
             {
