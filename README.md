@@ -13,6 +13,7 @@ It is inspired by the lovely [Dark Feminine Italics theme](https://marketplace.v
 ![demo](./images/react.png)
 
 ## Languages Best Supported
+
 - CSS
 - C#
 - Flutter/Dart
@@ -30,10 +31,10 @@ It is inspired by the lovely [Dark Feminine Italics theme](https://marketplace.v
 
 ## Installation
 
-1. Ensure Visual Studio Code is installed.
-1. Open Visual Studio Code.
-2. Open the **Extensions** sidebar panel and search for `Dark June`.
-3. Click on the cog wheel and **Install** to install it.
+1. Ensure [Visual Studio Code](https://code.visualstudio.com) is installed.
+2. Open Visual Studio Code.
+3. Open the **Extensions** sidebar panel and search for `Dark June`.
+4. Click on the cog wheel and **Install** to install it.
 
 ## Customisation
 
