@@ -2,13 +2,24 @@
     "name": "dark-june",
     "displayName": "Dark June",
     "description": "A soft dark theme that won't distract your focus",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.45.0"
     },
+	"homepage": "https://github.com/henry000dev/dark-june",
+    "bugs": {
+        "url": "https://github.com/henry000dev/dark-june/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/henry000dev/dark-june"
+    },
+    "author": "henry000dev",
+    "publisher": "henry000dev",
     "categories": [
         "Themes"
     ],
+    "icon": "./images/dark-june-logo.png",
     "contributes": {
         "themes": [
             {

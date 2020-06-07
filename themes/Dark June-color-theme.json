@@ -4,19 +4,19 @@
 	"colors": {
 		// The most important bit!
 		"editor.background": "#202020", // primary dark colour.
-		"editor.foreground": "#C8C8C8", // primary light colour.
+		"editor.foreground": "#B8B8B8", // primary light colour.
 
 		// Side bar is where the files, extensions etc are.
 		"sideBarTitle.foreground": "#BBBBBB",
 		"sideBar.background": "#202020",
 		"sideBar.border": "#303030",
-		"sideBar.foreground": "#C8C8C8",
+		"sideBar.foreground": "#B8B8B8",
 
 		// Tabs in the editor.
-		"tab.activeForeground": "#C8C8C8",
+		"tab.activeForeground": "#B8B8B8",
 
 		// Menu.
-		"menu.foreground": "#C8C8C8",
+		"menu.foreground": "#B8B8B8",
 		
 		// Activity bar is the left-most (or right-most) bar.
 		"activityBarBadge.background": "#D52090",
@@ -27,7 +27,7 @@
 
 		// Status bar.
 		"statusBar.background": "#3C3C3C",
-		"statusBar.foreground": "#C8C8C8",
+		"statusBar.foreground": "#B8B8B8",
 		"statusBar.debuggingBackground": "#D52090",
 
 		// Title bar.
@@ -35,14 +35,14 @@
 	},
 	// #D52090 - badge colour, delete, warning
 	// #B83030 - error
-	// #C8C8C8 - lighter white colour
+	// #B8B8B8 - lighter white colour
 	// #777777 - darker white colour
-	// #CC9292 - 1
-	// #B981B4 - 2
-	// #AF92CC - 3
-	// #7FAB7B - 4
-	// #E4D4A5 - 5
-	// #6E87B3 - 6
+	// #CC9292 - 1 -- pink
+	// #B981B4 - 2 -- purple (not used currently)
+	// #AF92CC - 3 -- indigo
+	// #97AF96 - 4 -- green
+	// #E4D4A5 - 5 -- yellow
+	// #6E87B3 - 6 -- blue
 	"tokenColors": [
 		{
 			"scope": "comment, punctuation.definition.comment",
@@ -53,7 +53,7 @@
 		{
 			"scope": "variable",
 			"settings": {
-				"foreground": "#C8C8C8"
+				"foreground": "#B8B8B8"
 			}
 		},
 		{
@@ -75,7 +75,7 @@
 			}
 		},
 		{
-			"scope": "entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter",
+			"scope": "entity.name.tag, punctuation.definition.entity.css, entity.other.attribute-name.id.css, entity.other.attribute-name.class.css, meta.tag.sgml, markup.deleted.git_gutter",
 			"settings": {
 				"foreground": "#AF92CC"
 			}
@@ -89,13 +89,13 @@
 		{
 			"scope": "support.other.variable, string.other.link",
 			"settings": {
-				"foreground": "#B981B4"
+				"foreground": "#AF92CC"
 			}
 		},
 		{
 			"scope": "constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit",
 			"settings": {
-				"foreground": "#B981B4"
+				"foreground": "#AF92CC"
 			}
 		},
 		{
@@ -105,9 +105,9 @@
 			}
 		},
 		{
-			"scope": "string",
+			"scope": "string, punctuation.definition.string.begin, punctuation.definition.string.end",
 			"settings": {
-				"foreground": "#C8C8C8",
+				"foreground": "#B8B8B8",
 			}
 		},
 		{
@@ -119,25 +119,25 @@
 		{
 			"scope": "entity.name.module.js, variable.import.parameter.js, variable.other.class.js",
 			"settings": {
-				"foreground": "#7FAB7B"
+				"foreground": "#97AF96"
 			}
 		},
 		{
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#7FAB7B",
+				"foreground": "#6E87B3",
 			}
 		},
 		{
 			"scope": "entity.name.method.js",
 			"settings": {
-				"foreground": "#C8C8C8"
+				"foreground": "#B8B8B8"
 			}
 		},
 		{
 			"scope": "meta.class-method.js entity.name.function.js, variable.function.constructor",
 			"settings": {
-				"foreground": "#C8C8C8"
+				"foreground": "#B8B8B8"
 			}
 		},
 		{
@@ -149,7 +149,7 @@
 		{
 			"scope": "markup.inserted",
 			"settings": {
-				"foreground": "#7FAB7B"
+				"foreground": "#97AF96"
 			}
 		},
 		{
@@ -167,13 +167,13 @@
 		{
 			"scope": "string.regexp",
 			"settings": {
-				"foreground": "#B981B4"
+				"foreground": "#AF92CC"
 			}
 		},
 		{
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#B981B4"
+				"foreground": "#AF92CC"
 			}
 		},
 		{
@@ -203,7 +203,7 @@
 		{
 			"scope": "source.js constant.other.object.key.js string.unquoted.label.js",
 			"settings": {
-				"foreground": "#7FAB7B"
+				"foreground": "#97AF96"
 			}
 		},
 		{
@@ -229,6 +229,85 @@
 			"settings": {
 				"foreground": "#6E87B3"
 			}
-		}
+		},
+
+		// SQL specifics.
+		{
+			"scope": "source.sql, support.function.security.sql",
+			"settings": {
+				"foreground": "#CC9292"
+			}
+		},
+
+		// JavaScript language keywords.
+		{
+			"scope": "constant.language.null.js, constant.language.undefined.js, variable.language.this.js, variable.language.super.js",
+			"settings": {
+				"foreground": "#97AF96",
+			}
+		},
+
+		// JavaScript others.
+		{
+			"scope": "variable.parameter.js",
+			"settings": {
+				"foreground": "#CC9292",
+			}
+		},
+
+		// JavaScript string template.
+		{
+			"scope": "string.template.js, string.template.js variable.other.readwrite.js, string.template.js punctuation.definition.template-expression.begin.js, string.template.js punctuation.definition.template-expression.end.js, punctuation.definition.string.template.begin.js, punctuation.definition.string.template.end.js",
+			"settings": {
+				"foreground": "#97AF96",
+			}
+		},
+
+		// JavaScript string template variables.
+		{
+			"scope": "string.template.js variable.other.readwrite.js, string.template.js punctuation.definition.template-expression.begin.js, string.template.js punctuation.definition.template-expression.end.js",
+			"settings": {
+				"foreground": "#CC9292",
+			}
+		},
+
+		// JavaScript JSON object key and values (any way to simplify the scope?)
+		{
+			"scope": "meta.object.member.js, meta.object.member.js meta.object-literal.key.js string.quoted.single.js, meta.object.member.js meta.object-literal.key.js string.quoted.single.js punctuation.definition.string.begin.js, meta.object.member.js meta.object-literal.key.js string.quoted.single.js punctuation.definition.string.end.js, meta.object.member.js meta.object-literal.key.js string.quoted.double.js, meta.object.member.js meta.object-literal.key.js string.quoted.double.js punctuation.definition.string.begin.js, meta.object.member.js meta.object-literal.key.js string.quoted.double.js punctuation.definition.string.end.js, meta.object.member.js meta.object-literal.key.js meta.array.literal.js variable.other.readwrite.js",
+			"settings": {
+				"foreground": "#CC9292",
+			}
+		},
+
+		// JavaScript JSON object (any way to simplify the scope?)
+		{
+			"scope": "meta.object.member.js string.quoted.single.js, meta.object.member.js string.quoted.double.js, meta.object.member.js constant.language.boolean.false.js, meta.object.member.js constant.language.boolean.true.js",
+			"settings": {
+				"foreground": "#B8B8B8",
+			}
+		},
+
+		// Vue
+		{
+			"scope": "source.vue variable.other.property.js, source.vue variable.other.object.property.js",
+			"settings": {
+				"foreground": "#CC9292",
+			}
+		},
+
+		// JSON specifics.
+		{
+			"scope": "constant.numeric.json, constant.language.json",
+			"settings": {
+				"foreground": "#B8B8B8",
+			}
+		},
+
+		{
+			"scope": "support.type.property-name.json, punctuation.support.type.property-name.begin.json, punctuation.support.type.property-name.end.json",
+			"settings": {
+				"foreground": "#AF92CC",
+			}
+		},
 	]
 }
