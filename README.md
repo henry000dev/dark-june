@@ -7,10 +7,10 @@ It is inspired by the lovely [Dark Feminine Italics theme](https://marketplace.v
 ## Screenshots
 
 ### HTML and CSS
-![demo](./images/html-css.png)
+![demo](images/html-css.png)
 
 ### React
-![demo](./images/react.png)
+![demo](images/react.png)
 
 ## Languages Best Supported
 
