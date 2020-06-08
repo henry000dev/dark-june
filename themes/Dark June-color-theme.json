@@ -61,7 +61,7 @@
 	// ------------------------------------------------------------------------
 	"tokenColors": [
 		{
-			"scope": "comment, punctuation.definition.comment",
+			"scope": "comment,punctuation.definition.comment",
 			"settings": {
 				"foreground": "#777777"
 			}
@@ -307,7 +307,7 @@
 			}
 		},
 
-		// JavaScript JSON object key and values (any way to simplify the scope?)
+		// JavaScript JSON object key and values (better way to simplify the scope?)
 		{
 			"scope": "meta.object.member.js, meta.object.member.js meta.object-literal.key.js string.quoted.single.js, meta.object.member.js meta.object-literal.key.js string.quoted.single.js punctuation.definition.string.begin.js, meta.object.member.js meta.object-literal.key.js string.quoted.single.js punctuation.definition.string.end.js, meta.object.member.js meta.object-literal.key.js string.quoted.double.js, meta.object.member.js meta.object-literal.key.js string.quoted.double.js punctuation.definition.string.begin.js, meta.object.member.js meta.object-literal.key.js string.quoted.double.js punctuation.definition.string.end.js, meta.object.member.js meta.object-literal.key.js meta.array.literal.js variable.other.readwrite.js",
 			"settings": {
