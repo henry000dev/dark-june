@@ -65,7 +65,10 @@
 	// ------------------------------------------------------------------------
 	"tokenColors": [
 		{
-			"scope": ["comment,punctuation.definition.comment"],
+			"scope": [
+				"comment",
+				
+				"punctuation.definition.comment"],
 			"settings": {
 				"foreground": "#777777"
 			}
@@ -353,7 +356,8 @@
 			}
 		},
 		{
-			"scope": ["variable.parameter.js"],
+			"scope": ["variable.parameter.js"]
+			,
 			"settings": {
 				"foreground": "#CC9292",
 			}
@@ -478,7 +482,9 @@
 			}
 		},
 		{
-			"scope": ["storage.type.java"],
+			"scope": [
+				"storage.type.java",
+				"storage.type.primitive.java"],
 			"settings": {
 				"foreground": "#88A2D3"
 			}

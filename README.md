@@ -2,6 +2,8 @@
 
 A dark and minimal [Visual Studio Code](https://code.visualstudio.com) theme. It is designed with soft, feminine colours, so hopefully you can focus on the code rather than getting distracted by vibrant colors.
 
+The theme is available here in the Visual Studio Code [market place](https://marketplace.visualstudio.com/items?itemName=henry000dev.dark-june).
+
 It is inspired by the lovely [Dark Feminine Italics theme](https://marketplace.visualstudio.com/items?itemName=Charlotte.dark-feminine-italic).
 
 ## Screenshots
