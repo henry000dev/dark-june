@@ -366,6 +366,7 @@
 			// JavaScript string template.
 			"scope": [
 				"string.template.js",
+				"string.template.js variable.other.constant.js",
 				"string.template.js variable.other.readwrite.js",
 				"string.template.js punctuation.definition.template-expression.begin.js",
 				"string.template.js punctuation.definition.template-expression.end.js",
@@ -373,16 +374,6 @@
 				"punctuation.definition.string.template.end.js"],
 			"settings": {
 				"foreground": "#C9B888",
-			}
-		},
-		{
-			// JavaScript string template variables.
-			"scope": [
-				"string.template.js variable.other.readwrite.js",
-				"string.template.js punctuation.definition.template-expression.begin.js",
-				"string.template.js punctuation.definition.template-expression.end.js"],
-			"settings": {
-				"foreground": "#CC9292",
 			}
 		},
 		{
