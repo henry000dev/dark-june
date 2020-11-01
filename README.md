@@ -9,10 +9,10 @@ It is inspired by the lovely [Dark Feminine Italics theme](https://marketplace.v
 ## Screenshots
 
 ### HTML and CSS
-![HTML-CSS](https://github.com/henry000dev/dark-june/blob/master/images/html-css.png)
+![HTML-CSS](https://github.com/henry000dev/dark-june/raw/master/images/html-css.png)
 
 ### React
-![React](https://github.com/henry000dev/dark-june/blob/master/images/react.png)
+![React](https://github.com/henry000dev/dark-june/raw/master/images/react.png)
 
 ## Languages Best Supported
 
