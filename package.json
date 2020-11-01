@@ -2,7 +2,7 @@
     "name": "dark-june",
     "displayName": "Dark June",
     "description": "A soft dark theme that won't distract your focus",
-    "version": "0.2.2",
+    "version": "0.2.4",
     "engines": {
         "vscode": "^1.45.0"
     },
